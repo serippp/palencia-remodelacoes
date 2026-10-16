@@ -1,0 +1,17 @@
+VERIFICAÇÃO — Palencia Remodelações
+
+• Desktop: 1280 px, composição inspecionada, sem overflow horizontal.
+• Mobile: 390 × 844 px, composição inspecionada, sem overflow horizontal.
+• Menu: abre, navega para Serviços e fecha corretamente.
+• Galeria: ampliação da fotografia e fecho do modal testados.
+• Fotografias: todos os elementos com src carregados no navegador após navegação.
+• Vídeo: readyState 4, reprodução ativa, 810 × 1440, proporção 9:16. Poster inspecionado, sem barras pretas.
+• Contactos: todos os links WhatsApp têm número e mensagem codificada corretos; chamada e Instagram configurados. Não foram enviadas mensagens nem efetuadas chamadas.
+• Consola: sem erros ou avisos na sessão de teste.
+• JavaScript: verificação de sintaxe concluída.
+• Ficheiros locais: todos os caminhos e âncoras verificados; recursos HTTP 200.
+• Conteúdo: apenas dados do briefing; sem estatísticas, avaliações ou localizações de obras inventadas.
+• Publicação: projeto estático com index.html na raiz e netlify.toml. Ainda não publicado.
+
+Limites: verificação responsiva em navegador; não foram usados dispositivos físicos Android/iPhone. Demonstração com noindex. Open Graph usa caminho relativo até existir domínio definitivo. Fontes externas com fallback local.
+Atualização do hero: fundo carvão, desenho arquitetónico vetorial decorativo, título editorial e vídeo preservado. Inspeção desktop 1280 px e mobile 390 px; verificação de overflow a 320 px. Sem overflow, menu funcional e sem erros/avisos na consola. Mantidas duas fotografias em Projetos. Desenho decorativo sem associação a obra executada. Animação desativada em prefers-reduced-motion.
